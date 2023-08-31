@@ -115,7 +115,7 @@
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
               content. This content is a little bit longer.</p>
           </div>
-          <a href="#" class="btn btn-primary">Reservar</a>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
           <div class="card-footer">
             <small class="text-body-secondary">Em até 24x</small>
           </div>
@@ -129,7 +129,7 @@
             <h2 class="card-subtitle text-muted">R$4.000,00</h2>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
           </div>
-          <a href="#" class="btn btn-primary">Reservar</a>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
           <div class="card-footer">
             <small class="text-body-secondary">Em até 18x</small>
           </div>
@@ -144,7 +144,7 @@
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
               content. This card has even longer content than the first to show that equal height action.</p>
           </div>
-          <a href="#" class="btn btn-primary">Reservar</a>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
           <div class="card-footer">
             <small class="text-body-secondary">Em até 18x</small>
           </div>
@@ -241,5 +241,23 @@
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
 </body>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5" id="exampleModalLabel">Suas compras</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Produto Adicionado ao carrinho!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar Comprando</button>
+        <button type="button" class="btn btn-success">Finalizar a Compra</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 </html>
